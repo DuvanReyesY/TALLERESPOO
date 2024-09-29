@@ -1,0 +1,17 @@
+@startuml
+class Evento{
+    - String nombre
+    + String getNombre()
+}
+class Persona{
+    - String nombre
+    + String getNombre()
+}
+class Matrimonio {
+    - Persona persona;
+    - Matrimonio matrimonio;
+    + mostrarInvitacion()
+}
+
+
+@enduml
