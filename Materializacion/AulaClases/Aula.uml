@@ -1,0 +1,13 @@
+@startuml
+class Estudiante{
+    - Aula estudiante1
+    - Aula estudiante2
+    + alAula()
+}
+
+class Aula{
+    + agregar()
+}
+
+Estudiante --> Aula : "estudiante1, estudiante2"
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+
+class Documento {
+  +sacarCopia()
+}
+
+' Definición de la clase Impresora
+class Impresora {
+  +imprimir()
+}
+
+Documento ..> Impresora : "usa"
+
+@enduml

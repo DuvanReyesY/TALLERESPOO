@@ -1,0 +1,15 @@
+@startuml
+class Computadora {
+  - Procesador: procesador
+  + Procesador()
+  + generar()
+  + destruir()
+}
+
+class Procesador {
+   + crear() 
+   + eliminar()
+}
+
+Procesador -> Computadora
+@enduml

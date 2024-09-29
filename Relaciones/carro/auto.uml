@@ -10,5 +10,5 @@ class Rueda{
     + String getMarca
 }
 
-Coche "1" -- "*" Rueda : "tiene"
+Coche "1" -- "4" Rueda : "tiene"
 @enduml

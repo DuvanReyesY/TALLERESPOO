@@ -1,0 +1,24 @@
+@startuml
+class Animal{
+    -String raza;
+    -String color;
+    + hacerSonido(): void
+    + caminar(): void
+}
+
+class Perro{
+    + hacerSonido(): void
+    + caminar(): void
+}
+
+interface Nadador{
+    + nadar(): void
+}
+
+class Delfín{
+    + nadar()
+}
+
+Perro --|> Animal
+Delfin ..|> Nadador
+@enduml

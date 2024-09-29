@@ -16,10 +16,10 @@ public class Computadora {
      
     }
     
-    public void eliminar(){
+    public void destruir(){
         procesador.eliminar();
         
-        System.out.println("El procesador esta eliminando");
+        System.out.println("El procesador se destruyo");
     }
     
 }

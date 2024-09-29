@@ -1,0 +1,20 @@
+@startuml
+class Equipo {
+  -String nombre
+  -Jugador jugador
+  +Equipo(String nombre)
+  +setJugador(Jugador jugador)
+}
+
+
+class Jugador {
+  -String nombre
+  -Equipo equipo
+  +Jugador(String nombre)
+  +setEquipo(Equipo equipo)
+}
+
+Equipo --> Jugador : "jugador"
+Jugador --> Equipo : "equipo"
+
+@enduml
